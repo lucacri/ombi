@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+echo "Deleting schedules db"
+if [ -d /config/Schedules.db ]; then rm -Rf /config/Schedules.db ; fi
+

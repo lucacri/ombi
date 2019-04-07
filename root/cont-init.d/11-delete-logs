@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+echo "Deleting past logs"
+if [ -d /config/Logs ]; then rm -Rf /config/Logs/* ; fi
+
